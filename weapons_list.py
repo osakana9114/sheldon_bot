@@ -1,655 +1,797 @@
 WEAPONS = [
     {
         "name": "わかばシューター",
-        "image": "./images/wakaba-shooter.png"
+        "sub": "スプラッシュボム",
+        "special": "インクアーマー",
+        "image": "wakaba-shooter.png"
     },
     {
         "name": "もみじシューター",
-        "image": "./images/momiji-shooter.png"
+        "sub": "ロボットボム",
+        "special": "アメフラシ",
+        "image": "momiji-shooter.png"
     },
     {
         "name": "おちばシューター",
-        "image": "./images/ochiba-shooter.png"
+        "sub": "トーピード",
+        "special": "バブルランチャー",
+        "image": "ochiba-shooter.png"
     },
     {
         "name": "スプラシューター",
-        "image": "./images/splat-shooter.png"
+        "sub": "クイックボム",
+        "special": "スーパーチャクチ",
+        "image": "splat-shooter.png"
     },
     {
         "name": "スプラシューターコラボ",
-        "image": "./images/splat-shooter-collabo.png"
+        "sub": "スプラッシュボム",
+        "special": "ジェットパック",
+        "image": "splat-shooter-collabo.png"
     },
     {
         "name": "スプラシューターベッチュー",
-        "image": "./images/splat-shooter-becchu.png"
+        "sub": "キューバンボム",
+        "special": "マルチミサイル",
+        "image": "splat-shooter-becchu.png"
     },
     {
         "name": "プロモデラーMG",
-        "image": "./images/promodeler-mg.png"
+        "sub": "キューバンボム",
+        "special": "カーリングボムピッチャー",
+        "image": "promodeler-mg.png"
     },
     {
         "name": "プロモデラーRG",
-        "image": "./images/promodeler-rg.png"
+        "sub": "スプリンクラー",
+        "special": "イカスフィア",
+        "image": "promodeler-rg.png"
     },
     {
         "name": "プライムシューター",
-        "image": "./images/prime-shooter.png"
+        "sub": "ポイントセンサー",
+        "special": "アメフラシ",
+        "image": "prime-shooter.png"
     },
     {
         "name": "プライムシューターコラボ",
-        "image": "./images/prime-shooter-collabo.png"
+        "sub": "キューバンボム",
+        "special": "バブルランチャー",
+        "image": "prime-shooter-collabo.png"
     },
     {
         "name": "プライムシューターベッチュー",
-        "image": "./images/prime-shooter-becchu.png"
+        "sub": "スプラッシュボム",
+        "special": "ナイスダマ",
+        "image": "prime-shooter-becchu.png"
     },
     {
         "name": ".52ガロン",
-        "image": "./images/52-gallon.png"
+        "sub": "ポイントセンサー",
+        "special": "イカスフィア",
+        "image": "52-gallon.png"
     },
     {
         "name": ".52ガロンデコ",
-        "image": "./images/52-gallon-deco.png"
+        "sub": "カーリングボム",
+        "special": "ハイパープレッサー",
+        "image": "52-gallon-deco.png"
     },
     {
         "name": ".96ガロン",
-        "image": "./images/96-gallon.png"
+        "sub": "スプリンクラー",
+        "special": "インクアーマー",
+        "image": "96-gallon.png"
     },
     {
         "name": ".96ガロンデコ",
-        "image": "./images/96-gallon-deco.png"
+        "sub": "スプラッシュシールド",
+        "special": "スーパーチャクチ",
+        "image": "96-gallon-deco.png"
     },
     {
         "name": "ジェットスイーパー",
-        "image": "./images/jet-sweeper.png"
+        "sub": "ポイズンミスト",
+        "special": "マルチミサイル",
+        "image": "jet-sweeper.png"
     },
     {
         "name": "ジェットスイーパーカスタム",
-        "image": "./images/jet-sweeper-custom.png"
+        "sub": "クイックボム",
+        "special": "ハイパープレッサー",
+        "image": "jet-sweeper-custom.png"
     },
     {
         "name": "N-ZAP85",
-        "image": "./images/n-zap85.png"
+        "sub": "キューバンボム",
+        "special": "インクアーマー",
+        "image": "n-zap85.png"
     },
     {
         "name": "N-ZAP89",
-        "image": "./images/n-zap89.png"
+        "sub": "ロボットボム",
+        "special": "マルチミサイル",
+        "image": "n-zap89.png"
     },
     {
         "name": "L3リールガン",
-        "image": "./images/l3-reelgun.png"
+        "sub": "カーリングボム",
+        "special": "イカスフィア",
+        "image": "l3-reelgun.png"
     },
     {
         "name": "L3リールガンD",
-        "image": "./images/l3-reelgun-d.png"
+        "sub": "クイックボム",
+        "special": "ジェットパック",
+        "image": "l3-reelgun-d.png"
     },
     {
         "name": "L3リールガンベッチュー",
-        "image": "./images/l3-reelgun-becchu.png"
+        "sub": "スプラッシュシールド",
+        "special": "ウルトラハンコ",
+        "image": "l3-reelgun-becchu.png"
     },
     {
         "name": "H3リールガン",
-        "image": "./images/h3-reelgun.png"
+        "sub": "ポイントセンサー",
+        "special": "マルチミサイル",
+        "image": "h3-reelgun.png"
     },
     {
         "name": "H3リールガンD",
-        "image": "./images/h3-reelgun-d.png"
+        "sub": "キューバンボム",
+        "special": "インクアーマー",
+        "image": "h3-reelgun-d.png"
     },
     {
         "name": "シャープマーカー",
-        "image": "./images/sharpmarker.png"
+        "sub": "ポイズンミスト",
+        "special": "ジェットパック",
+        "image": "sharpmarker.png"
     },
     {
         "name": "シャープマーカーネオ",
-        "image": "./images/sharpmarker-neo.png"
+        "sub": "クイックボム",
+        "special": "キューバンボムピッチャー",
+        "image": "sharpmarker-neo.png"
     },
     {
         "name": "ボールドマーカー",
-        "image": "./images/boldmarker.png"
+        "sub": "カーリングボム",
+        "special": "スーパーチャクチ",
+        "image": "boldmarker.png"
     },
     {
         "name": "ボールドマーカーネオ",
-        "image": "./images/boldmarker-neo.png"
+        "sub": "ジャンプビーコン",
+        "special": "マルチミサイル",
+        "image": "boldmarker-neo.png"
     },
     {
         "name": "パブロ",
-        "image": "./images/pablo.png"
+        "sub": "スプラッシュボム",
+        "special": "スーパーチャクチ",
+        "image": "pablo.png"
     },
     {
         "name": "パブロ・ヒュー",
-        "image": "./images/pablo-hue.png"
+        "sub": "トラップ",
+        "special": "イカスフィア",
+        "image": "pablo-hue.png"
     },
     {
         "name": "ホクサイ",
-        "image": "./images/hokusai.png"
+        "sub": "ロボットボム",
+        "special": "ジェットパック",
+        "image": "hokusai.png"
     },
     {
         "name": "ホクサイ・ヒュー",
-        "image": "./images/hokusai-hue.png"
+        "sub": "ジャンプビーコン",
+        "special": "マルチミサイル",
+        "image": "hokusai-hue.png"
     },
     {
         "name": "ホクサイベッチュー",
-        "image": "./images/hokusai-becchu.png"
+        "sub": "キューバンボム",
+        "special": "ウルトラハンコ",
+        "image": "hokusai-becchu.png"
     },
     {
         "name": "カーボンローラー",
-        "image": "./images/carbon-roller.png"
+        "sub": "ロボットボム",
+        "special": "アメフラシ",
+        "image": "carbon-roller.png"
     },
     {
         "name": "カーボンローラーデコ",
-        "image": "./images/carbon-roller-deco.png"
+        "sub": "クイックボム",
+        "special": "ロボボムピッチャー",
+        "image": "carbon-roller-deco.png"
     },
     {
         "name": "スプラローラー",
-        "image": "./images/splat-roller.png"
+        "sub": "カーリングボム",
+        "special": "スーパーチャクチ",
+        "image": "splat-roller.png"
     },
     {
         "name": "スプラローラーコラボ",
-        "image": "./images/splat-roller-collabo.png"
+        "sub": "ジャンプビーコン",
+        "special": "イカスフィア",
+        "image": "splat-roller-collabo.png"
     },
     {
         "name": "スプラローラーベッチュー",
-        "image": "./images/splat-roller-becchu.png"
+        "sub": "スプラッシュボム",
+        "special": "バブルランチャー",
+        "image": "splat-roller-becchu.png"
     },
     {
         "name": "ヴァリアブルローラー",
-        "image": "./images/variable-roller.png"
+        "sub": "スプラッシュシールド",
+        "special": "スプラッシュボムピッチャー",
+        "image": "variable-roller.png"
     },
     {
         "name": "ヴァリアブルローラーフォイル",
-        "image": "./images/variable-roller-foil.png"
+        "sub": "キューバンボム",
+        "special": "マルチミサイル",
+        "image": "variable-roller-foil.png"
     },
     {
         "name": "ダイナモローラー",
-        "image": "./images/dynamo-roller.png"
+        "sub": "トラップ",
+        "special": "ハイパープレッサー",
+        "image": "dynamo-roller.png"
     },
     {
         "name": "ダイナモローラーテスラ",
-        "image": "./images/dynamo-roller-tesla.png"
+        "sub": "スプラッシュボム",
+        "special": "インクアーマー",
+        "image": "dynamo-roller-tesla.png"
     },
     {
         "name": "ダイナモローラーベッチュー",
-        "image": "./images/dynamo-roller-becchu.png"
+        "sub": "スプリンクラー",
+        "special": "ナイスダマ",
+        "image": "dynamo-roller-becchu.png"
     },
     {
         "name": "スプラマニューバー",
-        "image": "./images/splat-manubar.png"
+        "sub": "クイックボム",
+        "special": "マルチミサイル",
+        "image": "splat-manubar.png"
     },
     {
         "name": "スプラマニューバーコラボ",
-        "image": "./images/splat-manubar-collabo.png"
+        "sub": "カーリングボム",
+        "special": "ジェットパック",
+        "image": "splat-manubar-collabo.png"
     },
     {
         "name": "スプラマニューバーベッチュー",
-        "image": "./images/splat-manubar-becchu.png"
+        "sub": "キューバンボム",
+        "special": "イカスフィア",
+        "image": "splat-manubar-becchu.png"
     },
     {
         "name": "クアッドホッパーブラック",
-        "image": "./images/quadhopper-black.png"
+        "sub": "ロボットボム",
+        "special": "スーパーチャクチ",
+        "image": "quadhopper-black.png"
     },
     {
         "name": "クアッドホッパーホワイト",
-        "image": "./images/quadhopper-white.png"
+        "sub": "スプリンクラー",
+        "special": "ロボボムピッチャー",
+        "image": "quadhopper-white.png"
     },
     {
         "name": "スパッタリー",
-        "image": "./images/spattary.png"
+        "sub": "ジャンプビーコン",
+        "special": "キューバンボムピッチャー",
+        "image": "spattary.png"
     },
     {
         "name": "スパッタリー・ヒュー",
-        "image": "./images/spattary-hue.png"
+        "sub": "ポイズンミスト",
+        "special": "アメフラシ",
+        "image": "spattary-hue.png"
     },
     {
         "name": "ケルビン525",
-        "image": "./images/kellbin525.png"
+        "sub": "トラップ",
+        "special": "ジェットパック",
+        "image": "kellbin525.png"
     },
     {
         "name": "ケルビン525デコ",
-        "image": "./images/kellbin525-deco.png"
+        "sub": "スプラッシュシールド",
+        "special": "イカスフィア",
+        "image": "kellbin525-deco.png"
     },
     {
         "name": "デュアルスイーパー",
-        "image": "./images/dual-sweeper.png"
+        "sub": "ポイントセンサー",
+        "special": "マルチミサイル",
+        "image": "dual-sweeper.png"
     },
     {
         "name": "デュアルスイーパーカスタム",
-        "image": "./images/dual-sweeper-custom.png"
+        "sub": "スプラッシュボム",
+        "special": "アメフラシ",
+        "image": "dual-sweeper-custom.png"
     },
     {
         "name": "スクイックリンα",
-        "image": "./images/squickrin-a.png"
+        "sub": "ポイントセンサー",
+        "special": "インクアーマー",
+        "image": "squickrin-a.png"
     },
     {
         "name": "スクイックリンβ",
-        "image": "./images/squickrin-b.png"
+        "sub": "ロボットボム",
+        "special": "イカスフィア",
+        "image": "squickrin-b.png"
     },
     {
         "name": "スプラチャージャー",
-        "image": "./images/splat-charger.png"
+        "sub": "スプラッシュボム",
+        "special": "ハイパープレッサー",
+        "image": "splat-charger.png"
     },
     {
         "name": "スプラチャージャーコラボ",
-        "image": "./images/splat-charger-collabo.png"
+        "sub": "スプラッシュシールド",
+        "special": "キューバンボムピッチャー",
+        "image": "splat-charger-collabo.png"
     },
     {
         "name": "スプラチャージャーベッチュー",
-        "image": "./images/splat-charger-becchu.png"
+        "sub": "スプリンクラー",
+        "special": "イカスフィア",
+        "image": "splat-charger-becchu.png"
     },
     {
         "name": "スプラスコープ",
-        "image": "./images/splat-scope.png"
+        "sub": "スプラッシュボム",
+        "special": "ハイパープレッサー",
+        "image": "splat-scope.png"
     },
     {
         "name": "スプラスコープコラボ",
-        "image": "./images/splat-scope-collabo.png"
+        "sub": "スプラッシュシールド",
+        "special": "キューバンボムピッチャー",
+        "image": "splat-scope-collabo.png"
     },
     {
         "name": "スプラスコープベッチュー",
-        "image": "./images/splat-scope-becchu.png"
+        "sub": "スプリンクラー",
+        "special": "イカスフィア",
+        "image": "splat-scope-becchu.png"
     },
     {
         "name": "リッター4K",
-        "image": "./images/litter-4k.png"
+        "sub": "トラップ",
+        "special": "アメフラシ",
+        "image": "litter-4k.png"
     },
     {
         "name": "リッター4Kカスタム",
-        "image": "./images/litter-4k-custom.png"
+        "sub": "ジャンプビーコン",
+        "special": "バブルランチャー",
+        "image": "litter-4k-custom.png"
     },
     {
         "name": "4Kスコープ",
-        "image": "./images/4k-scope.png"
+        "sub": "トラップ",
+        "special": "アメフラシ",
+        "image": "4k-scope.png"
     },
     {
         "name": "4Kスコープカスタム",
-        "image": "./images/4k-scope-custom.png"
+        "sub": "ジャンプビーコン",
+        "special": "バブルランチャー",
+        "image": "4k-scope-custom.png"
     },
     {
         "name": "14式竹筒銃・甲",
-        "image": "./images/14style-bamboogun-kou.png"
+        "sub": "カーリングボム",
+        "special": "マルチミサイル",
+        "image": "14style-bamboogun-kou.png"
     },
     {
         "name": "14式竹筒銃・乙",
-        "image": "./images/14style-bamboogun-otsu.png"
+        "sub": "ポイズンミスト",
+        "special": "クイックボムピッチャー",
+        "image": "14style-bamboogun-otsu.png"
     },
     {
         "name": "ソイチューバー",
-        "image": "./images/soy-tuber.png"
+        "sub": "キューバンボム",
+        "special": "スーパーチャクチ",
+        "image": "soy-tuber.png"
     },
     {
         "name": "ソイチューバーカスタム",
-        "image": "./images/soy-tuber-custom.png"
+        "sub": "カーリングボム",
+        "special": "ジェットパック",
+        "image": "soy-tuber-custom.png"
     },
     {
         "name": "ノヴァブラスター",
-        "image": "./images/nova-blaster.png"
+        "sub": "スプラッシュボム",
+        "special": "イカスフィア",
+        "image": "nova-blaster.png"
     },
     {
         "name": "ノヴァブラスターネオ",
-        "image": "./images/nova-blaster-neo.png"
+        "sub": "トラップ",
+        "special": "キューバンボムピッチャー",
+        "image": "nova-blaster-neo.png"
     },
     {
         "name": "ノヴァブラスターベッチュー",
-        "image": "./images/nova-blaster-becchu.png"
+        "sub": "タンサンボム",
+        "special": "アメフラシ",
+        "image": "nova-blaster-becchu.png"
     },
     {
         "name": "ホットブラスター",
-        "image": "./images/hot-blaster.png"
+        "sub": "ポイズンミスト",
+        "special": "スーパーチャクチ",
+        "image": "hot-blaster.png"
     },
     {
         "name": "ホットブラスターカスタム",
-        "image": "./images/hot-blaster-custom.png"
+        "sub": "ロボットボム",
+        "special": "ジェットパック",
+        "image": "hot-blaster-custom.png"
     },
     {
         "name": "ロングブラスター",
-        "image": "./images/long-blaster.png"
+        "sub": "キューバンボム",
+        "special": "アメフラシ",
+        "image": "long-blaster.png"
     },
     {
         "name": "ロングブラスターカスタム",
-        "image": "./images/long-blaster-custom.png"
+        "sub": "カーリングボム",
+        "special": "バブルランチャー",
+        "image": "long-blaster-custom.png"
     },
     {
         "name": "ラピッドブラスター",
-        "image": "./images/rapid-blaster.png"
+        "sub": "トラップ",
+        "special": "スプラッシュボムピッチャー",
+        "image": "rapid-blaster.png"
     },
     {
         "name": "ラピッドブラスターデコ",
-        "image": "./images/rapid-blaster-deco.png"
+        "sub": "キューバンボム",
+        "special": "ジェットパック",
+        "image": "rapid-blaster-deco.png"
     },
     {
         "name": "Rブラスターエリート",
-        "image": "./images/r-blaster-elite.png"
+        "sub": "ポイズンミスト",
+        "special": "アメフラシ",
+        "image": "r-blaster-elite.png"
     },
     {
         "name": "Rブラスターエリートデコ",
-        "image": "./images/r-blaster-elite-deco.png"
+        "sub": "スプラッシュシールド",
+        "special": "インクアーマー",
+        "image": "r-blaster-elite-deco.png"
     },
     {
         "name": "クラッシュブラスター",
-        "image": "./images/crush-blaster.png"
+        "sub": "スプラッシュボム",
+        "special": "ハイパープレッサー",
+        "image": "crush-blaster.png"
     },
     {
         "name": "クラッシュブラスターネオ",
-        "image": "./images/crush-blaster-neo.png"
+        "sub": "カーリングボム",
+        "special": "マルチミサイル",
+        "image": "crush-blaster-neo.png"
     },
     {
         "name": "スプラスピナー",
-        "image": "./images/splat-spinner.png"
+        "sub": "クイックボム",
+        "special": "マルチミサイル",
+        "image": "splat-spinner.png"
     },
     {
         "name": "スプラスピナーコラボ",
-        "image": "./images/splat-spinner-collabo.png"
+        "sub": "カーリングボム",
+        "special": "アメフラシ",
+        "image": "splat-spinner-collabo.png"
     },
     {
         "name": "バレルスピナー",
-        "image": "./images/barrel-spinner.png"
+        "sub": "スプリンクラー",
+        "special": "ハイパープレッサー",
+        "image": "barrel-spinner.png"
     },
     {
         "name": "バレルスピナーデコ",
-        "image": "./images/barrel-spinner-deco.png"
+        "sub": "スプラッシュシールド",
+        "special": "バブルランチャー",
+        "image": "barrel-spinner-deco.png"
     },
     {
         "name": "クーゲルシュライバー",
-        "image": "./images/kugelschreiber.png"
+        "sub": "ポイズンミスト",
+        "special": "ジェットパック",
+        "image": "kugelschreiber.png"
     },
     {
         "name": "ノーチラス47",
-        "image": "./images/nautilus47.png"
+        "sub": "ポイントセンサー",
+        "special": "イカスフィア",
+        "image": "nautilus47.png"
     },
     {
         "name": "ハイドラント",
-        "image": "./images/hydrant.png"
+        "sub": "ロボットボム",
+        "special": "スーパーチャクチ",
+        "image": "hydrant.png"
     },
     {
         "name": "ハイドラントカスタム",
-        "image": "./images/hydrant-custom.png"
+        "sub": "トラップ",
+        "special": "インクアーマー",
+        "image": "hydrant-custom.png"
     },
     {
         "name": "バケットスロッシャー",
-        "image": "./images/bucket-slosher.png"
+        "sub": "キューバンボム",
+        "special": "マルチミサイル",
+        "image": "bucket-slosher.png"
     },
     {
         "name": "バケットスロッシャーデコ",
-        "image": "./images/bucket-slosher-deco.png"
+        "sub": "スプリンクラー",
+        "special": "イカスフィア",
+        "image": "bucket-slosher-deco.png"
     },
     {
         "name": "ヒッセン",
-        "image": "./images/hissen.png"
+        "sub": "クイックボム",
+        "special": "インクアーマー",
+        "image": "hissen.png"
     },
     {
         "name": "ヒッセン・ヒュー",
-        "image": "./images/hissen-hue.png"
+        "sub": "スプラッシュボム",
+        "special": "アメフラシ",
+        "image": "hissen-hue.png"
     },
     {
         "name": "スクリュースロッシャー",
-        "image": "./images/screw-slosher.png"
+        "sub": "ロボットボム",
+        "special": "ハイパープレッサー",
+        "image": "screw-slosher.png"
     },
     {
         "name": "スクリュースロッシャーネオ",
-        "image": "./images/screw-slosher-neo.png"
+        "sub": "ポイントセンサー",
+        "special": "スプラッシュボムピッチャー",
+        "image": "screw-slosher-neo.png"
     },
     {
         "name": "スクリュースロッシャーベッチュー",
-        "image": "./images/screw-slosher-becchu.png"
+        "sub": "タンサンボム",
+        "special": "スーパーチャクチ",
+        "image": "screw-slosher-becchu.png"
     },
     {
         "name": "エクスプロッシャー",
-        "image": "./images/explosher.png"
+        "sub": "スプリンクラー",
+        "special": "バブルランチャー",
+        "image": "explosher.png"
     },
     {
         "name": "オーバーフロッシャー",
-        "image": "./images/over-flusher.png"
+        "sub": "スプラッシュシールド",
+        "special": "アメフラシ",
+        "image": "over-flusher.png"
     },
     {
         "name": "パラシェルター",
-        "image": "./images/parashelter.png"
+        "sub": "スプリンクラー",
+        "special": "アメフラシ",
+        "image": "parashelter.png"
     },
     {
         "name": "パラシェルターソレーラ",
-        "image": "./images/parashelter-solera.png"
+        "sub": "ロボットボム",
+        "special": "スプラッシュボムピッチャー",
+        "image": "parashelter-solera.png"
     },
     {
         "name": "キャンピングシェルター",
-        "image": "./images/camping-shelter.png"
+        "sub": "ジャンプビーコン",
+        "special": "バブルランチャー",
+        "image": "camping-shelter.png"
     },
     {
         "name": "キャンピングシェルターソレーラ",
-        "image": "./images/camping-shelter-solera.png"
+        "sub": "スプラッシュシールド",
+        "special": "カーリングボムピッチャー",
+        "image": "camping-shelter-solera.png"
     },
     {
         "name": "スパイガジェット",
-        "image": "./images/spy-gadget.png"
+        "sub": "トラップ",
+        "special": "スーパーチャクチ",
+        "image": "spy-gadget.png"
     },
     {
         "name": "スパイガジェットソレーラ",
-        "image": "./images/spy-gadget-solera.png"
+        "sub": "スプラッシュボム",
+        "special": "イカスフィア",
+        "image": "spy-gadget-solera.png"
     },
     {
         "name": "スパイガジェットベッチュー",
-        "image": "./images/spy-gadget-becchu.png"
+        "sub": "トーピード",
+        "special": "インクアーマー",
+        "image": "spy-gadget-becchu.png"
     },
     {
         "name": "ボトルガイザー",
-        "image": "./images/bottle-geyser.png"
+        "sub": "スプラッシュシールド",
+        "special": "ハイパープレッサー",
+        "image": "bottle-geyser.png"
     },
     {
         "name": "ボトルガイザーフォイル",
-        "image": "./images/bottle-geyser-foil.png"
+        "sub": "スプラッシュボム",
+        "special": "バブルランチャー",
+        "image": "bottle-geyser-foil.png"
     },
     # ここから射程考慮 "ぶきち" 実装後のため下に追加
     {
         "name": "スプラスピナーベッチュー",
-        "image": "./images/splat-spinner-becchu.png"
+        "sub": "ポイズンミスト",
+        "special": "ウルトラハンコ",
+        "image": "splat-spinner-becchu.png"
     },
     {
         "name": ".52ガロンベッチュー",
-        "image": "./images/52-gallon-becchu.png"
+        "sub": "スプラッシュシールド",
+        "special": "ナイスダマ",
+        "image": "52-gallon-becchu.png"
     },
     {
         "name": "ラピッドブラスターベッチュー",
-        "image": "./images/rapid-blaster-becchu.png"
+        "sub": "トーピード",
+        "special": "イカスフィア",
+        "image": "rapid-blaster-becchu.png"
     },
     {
         "name": "ケルビン525ベッチュー",
-        "image": "./images/kellbin525-becchu.png"
+        "sub": "タンサンボム",
+        "special": "インクアーマー",
+        "image": "kellbin525-becchu.png"
     },
     {
         "name": "ノーチラス79",
-        "image": "./images/nautilus79.png"
+        "sub": "キューバンボム",
+        "special": "ジェットパック",
+        "image": "nautilus79.png"
     },
     {
         "name": "オーバーフロッシャーデコ",
-        "image": "./images/over-flusher-deco.png"
+        "sub": "スプリンクラー",
+        "special": "キューバンボムピッチャー",
+        "image": "over-flusher-deco.png"
     },
     {
         "name": "クーゲルシュライバー・ヒュー",
-        "image": "./images/kugelschreiber-hue.png"
+        "sub": "ジャンプビーコン",
+        "special": "アメフラシ",
+        "image": "kugelschreiber-hue.png"
     },
     {
         "name": "エクスプロッシャーカスタム",
-        "image": "./images/explosher-custom.png"
+        "sub": "ポイントセンサー",
+        "special": "イカスフィア",
+        "image": "explosher-custom.png"
     },
     {
         "name": "スパッタリークリア",
-        "image": "./images/spattary-clear.png"
+        "sub": "トーピード",
+        "special": "スーパーチャクチ",
+        "image": "spattary-clear.png"
     },
     {
         "name": "キャンピングシェルターカーモ",
-        "image": "./images/camping-shelter-camo.png"
+        "sub": "トラップ",
+        "special": "ウルトラハンコ",
+        "image": "camping-shelter-camo.png"
     },
     {
         "name": "スクイックリンγ",
-        "image": "./images/squickrin-c.png"
+        "sub": "キューバンボム",
+        "special": "ジェットパック",
+        "image": "squickrin-c.png"
     },
     {
         "name": "パーマネント・パブロ",
-        "image": "./images/permanent-pablo.png"
+        "sub": "スプリンクラー",
+        "special": "インクアーマー",
+        "image": "permanent-pablo.png"
     },
     {
         "name": "バケットスロッシャーソーダ",
-        "image": "./images/bucket-slosher-soda.png"
+        "sub": "スプラッシュボム",
+        "special": "クイックボムピッチャー",
+        "image": "bucket-slosher-soda.png"
     },
     {
         "name": "バレルスピナーリミックス",
-        "image": "./images/barrel-spinner-remix.png"
+        "sub": "ポイントセンサー",
+        "special": "ナイスダマ",
+        "image": "barrel-spinner-remix.png"
     },
     {
         "name": "14式竹筒銃・丙",
-        "image": "./images/14style-bamboogun-hei.png"
+        "sub": "タンサンボム",
+        "special": "クイックボムピッチャー",
+        "image": "14style-bamboogun-hei.png"
     },
     {
         "name": "ロングブラスターネクロ",
-        "image": "./images/long-blaster-necro.png"
+        "sub": "クイックボム",
+        "special": "マルチミサイル",
+        "image": "long-blaster-necro.png"
     },
     {
         "name": "N-ZAP83",
-        "image": "./images/n-zap83.png"
+        "sub": "スプリンクラー",
+        "special": "アメフラシ",
+        "image": "n-zap83.png"
     },
     {
         "name": "プロモデラーPG",
-        "image": "./images/promodeler-pg.png"
+        "sub": "クイックボム",
+        "special": "ナイスダマ",
+        "image": "promodeler-pg.png"
     },
     {
         "name": "ボールドマーカー7",
-        "image": "./images/boldmarker-7.png"
+        "sub": "スプラッシュボム",
+        "special": "ウルトラハンコ",
+        "image": "boldmarker-7.png"
     },
     {
         "name": "H3リールガンチェリー",
-        "image": "./images/h3-reelgun-cherry.png"
-    },
-]
-
-NEW_WEAPONS = [
-    {
-        "name": "スパッタリークリア",
-        "image": "./images/spattary-clear.png"
-    },
-    {
-        "name": "キャンピングシェルターカーモ",
-        "image": "./images/camping-shelter-camo.png"
-    },
-    {
-        "name": "スクイックリンγ",
-        "image": "./images/squickrin-c.png"
-    },
-    {
-        "name": "パーマネント・パブロ",
-        "image": "./images/permanent-pablo.png"
-    },
-    {
-        "name": "バケットスロッシャーソーダ",
-        "image": "./images/bucket-slosher-soda.png"
-    },
-    {
-        "name": "バレルスピナーリミックス",
-        "image": "./images/barrel-spinner-remix.png"
-    },
-    {
-        "name": "14式竹筒銃・丙",
-        "image": "./images/14style-bamboogun-hei.png"
-    },
-    {
-        "name": "ロングブラスターネクロ",
-        "image": "./images/long-blaster-necro.png"
-    },
-    {
-        "name": "N-ZAP83",
-        "image": "./images/n-zap83.png"
-    },
-    {
-        "name": "プロモデラーPG",
-        "image": "./images/promodeler-pg.png"
-    },
-    {
-        "name": "ボールドマーカー7",
-        "image": "./images/boldmarker-7.png"
-    },
-    {
-        "name": "H3リールガンチェリー",
-        "image": "./images/h3-reelgun-cherry.png"
-    },
-]
-
-BECCHU_WEAPONS = [
-    {
-        "name": "スプラシューターベッチュー",
-        "image": "./images/splat-shooter-becchu.png"
-    },
-    {
-        "name": "スプラチャージャーベッチュー",
-        "image": "./images/splat-charger-becchu.png"
-    },
-    {
-        "name": "スプラスコープベッチュー",
-        "image": "./images/splat-scope-becchu.png"
-    },
-    {
-        "name": "スプラマニューバーベッチュー",
-        "image": "./images/splat-manubar-becchu.png"
-    },
-    {
-        "name": "スプラローラーベッチュー",
-        "image": "./images/splat-roller-becchu.png"
-    },
-    {
-        "name": "プライムシューターベッチュー",
-        "image": "./images/prime-shooter-becchu.png"
-    },
-    {
-        "name": "ダイナモローラーベッチュー",
-        "image": "./images/dynamo-roller-becchu.png"
-    },
-    {
-        "name": "ノヴァブラスターベッチュー",
-        "image": "./images/nova-blaster-becchu.png"
-    },
-    {
-        "name": "スクリュースロッシャーベッチュー",
-        "image": "./images/screw-slosher-becchu.png"
-    },
-    {
-        "name": "おちばシューター",
-        "image": "./images/ochiba-shooter.png"
-    },
-    {
-        "name": "L3リールガンベッチュー",
-        "image": "./images/l3-reelgun-becchu.png"
-    },
-    {
-        "name": "ホクサイベッチュー",
-        "image": "./images/hokusai-becchu.png"
-    },
-    {
-        "name": "スパイガジェットベッチュー",
-        "image": "./images/spy-gadget-becchu.png"
-    },
-    {
-        "name": "スプラスピナーベッチュー",
-        "image": "./images/splat-spinner-becchu.png"
-    },
-    {
-        "name": ".52ガロンベッチュー",
-        "image": "./images/52-gallon-becchu.png"
-    },
-    {
-        "name": "ラピッドブラスターベッチュー",
-        "image": "./images/rapid-blaster-becchu.png"
-    },
-    {
-        "name": "ケルビン525ベッチュー",
-        "image": "./images/kellbin525-becchu.png"
+        "sub": "スプラッシュシールド",
+        "special": "バブルランチャー",
+        "image": "h3-reelgun-cherry.png"
     },
 ]
 
 WEAPONS_RANGE = {
-    "long": [64,65,62,63,89,90,59,60,61,56,57,58,40,41,42,85,86,87,15,16,38,39,66,67,68,69,22,23,8,9,10,13,14,52,53,54,55,98,115,116,119,122,123,128],
-    "middle": [83,84,79,80,19,20,21,50,51,102,103,35,36,37,11,12,46,47,77,78,104,105,106,95,96,97,99,107,108,91,92,100,101,88,75,76,109,110,111,112,113,114,118,121,124],
+    "long": [64, 65, 62, 63, 89, 90, 59, 60, 61, 56, 57, 58, 40, 41, 42, 85, 86, 87, 15, 16, 38, 39, 66, 67, 68, 69, 22,
+             23, 8, 9, 10, 13, 14, 52, 53, 54, 55, 98, 115, 116, 119, 122, 123, 128],
+    "middle": [83, 84, 79, 80, 19, 20, 21, 50, 51, 102, 103, 35, 36, 37, 11, 12, 46, 47, 77, 78, 104, 105, 106, 95, 96,
+               97, 99, 107, 108, 91, 92, 100, 101, 88, 75, 76, 109, 110, 111, 112, 113, 114, 118, 121, 124],
     "short": {
-        "kill": [3,4,5,28,29,30,31,32,33,34,43,44,45,48,49,70,71,72,73,74,81,82,93,94,117,120],
-        "paint": [0,1,2,6,7,17,18,24,25,26,27,125,126,127]
+        "kill": [3, 4, 5, 28, 29, 30, 31, 32, 33, 34, 43, 44, 45, 48, 49, 70, 71, 72, 73, 74, 81, 82, 93, 94, 117, 120],
+        "paint": [0, 1, 2, 6, 7, 17, 18, 24, 25, 26, 27, 125, 126, 127]
     }
 }
 
 WEAPONS_KILL_PAINT = {
-    "kill": [3,4,5,8,9,10,11,12,13,14,15,16,19,20,21,22,23,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,85,86,87,95,96,97,110,111,112,115,117,119,122,123,124,128],
-    "paint": [0,1,2,6,7,17,18,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,83,84,88,89,90,91,92,93,94,98,99,100,101,102,103,104,105,106,107,108,109,113,114,116,118,120,121,125,126,127]
+    "kill": [3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+             54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80,
+             81, 82, 85, 86, 87, 95, 96, 97, 110, 111, 112, 115, 117, 119, 122, 123, 124, 128],
+    "paint": [0, 1, 2, 6, 7, 17, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 83, 84,
+              88, 89, 90, 91, 92, 93, 94, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 113, 114, 116, 118,
+              120, 121, 125, 126, 127]
 }
